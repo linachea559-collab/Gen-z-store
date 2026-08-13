@@ -1,1 +1,40 @@
-{"type": "commonjs"}
+{
+  "name": "gen-z-fashion",
+  "version": "0.1.0",
+  "private": true,
+  "description": "A Strapi application",
+  "scripts": {
+    "build": "strapi build",
+    "console": "strapi console",
+    "deploy": "strapi deploy",
+    "dev": "strapi develop",
+    "develop": "strapi develop",
+    "seed:example": "node ./scripts/seed.js",
+    "start": "strapi start",
+    "strapi": "strapi",
+    "upgrade": "npx @strapi/upgrade latest",
+    "upgrade:dry": "npx @strapi/upgrade latest --dry"
+  },
+  "dependencies": {
+    "@strapi/database": "5.51.2",
+    "@strapi/plugin-cloud": "5.51.2",
+    "@strapi/plugin-users-permissions": "5.51.2",
+    "@strapi/strapi": "5.51.2",
+    "better-sqlite3": "12.8.0",
+    "fs-extra": "^10.0.0",
+    "mime-types": "^2.1.27",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "react-router-dom": "^6.30.3",
+    "styled-components": "^6.0.0"
+  },
+  "devDependencies": {},
+  "engines": {
+    "node": ">=20.0.0 <=26.x.x",
+    "npm": ">=6.0.0"
+  },
+  "strapi": {
+    "uuid": "131f3587-341c-438e-b2fe-2ed683973afd",
+    "installId": "8461124bbef87496a5046a309b2f2b873bf7f8b41cf2149c7043eaab47375f37"
+  }
+}
